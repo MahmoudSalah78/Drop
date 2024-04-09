@@ -78,3 +78,11 @@ h2{
     color: white;
     transform: translateX(-3px);
 }
+@media (max-width:900px){
+    .lists{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
